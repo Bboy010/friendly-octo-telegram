@@ -1,0 +1,28 @@
+# Example: Dictionary of species and their scientific names
+
+species_dict = {
+
+    "Human": "Homo sapiens",
+
+    "Chimpanzee": "Pan troglodytes",
+
+    "Gorilla": "Gorilla gorilla",
+
+    "Orangutan": "Pongo pygmaeus"
+
+}
+
+
+del species_dict["Gorilla"]
+
+print(species_dict)
+
+
+
+# Remove using pop() and capture the removed value
+
+removed_species = species_dict.pop("Orangutan")
+
+print(removed_species)
+
+print(species_dict)
